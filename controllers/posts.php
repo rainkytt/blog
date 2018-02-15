@@ -18,7 +18,7 @@ class posts extends Controller
     */
     function view(){
         $post_id = $this->params[0];
-      $this->post = get_first("SELECT * FROM posts NATURAL JOIN users WHERE post_id='$post_id'");
+      $this->post = get_first("SELECT * FROM post NATURAL JOIN users WHERE post_id='$post_id'");
     }
     /**
      * This function will only be ran in case of an AJAX request. No view will be attempted to load after this function.
