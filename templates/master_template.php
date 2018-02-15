@@ -56,7 +56,7 @@
                 <li <?= $controller == 'posts' ? 'class="active"' : '' ?>><a href="<?php echo BASE_URL; ?>posts">Posts</a></li>
                 <li <?= $controller == 'tags' ? 'class="active"' : '' ?>><a href="<?php echo BASE_URL; ?>tags">Tags</a></li>
                 <li <?= $controller == 'users' ? 'class="active"' : '' ?>><a href="<?php echo BASE_URL; ?>users">Users</a></li>
-                <!-- <li class="dropdown">
+                <!--midagi on puudu-- <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sample dropdown <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li><a href="#"><? __('Action') ?></a></li>
